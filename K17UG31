@@ -11,4 +11,13 @@ int main()
       printf("\nEnter Total Number of Processes:\t"); 
       scanf("%d", &l); 
       x = l; 
-      
+   
+ if(l>=1)
+	{
+		quantum=10;
+	}
+	else
+	{
+		quantum=6;
+	}
+	
