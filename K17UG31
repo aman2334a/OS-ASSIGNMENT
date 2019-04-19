@@ -60,4 +60,17 @@ int main()
                   count = 0; 
             }
 
-	
+  if(i == l - 1) 
+            
+            {
+                  i = 0; 
+            }
+            else if(artime[i + 1] <= total) 
+            {
+                  i++;
+            }
+            else 
+            {
+                  i = 0;
+            }
+      } 
